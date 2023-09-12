@@ -3,7 +3,7 @@ package edu.virginia.cs.coursereviewsystem;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class ReviewSystemController {
     @FXML
     private Label welcomeText;
 

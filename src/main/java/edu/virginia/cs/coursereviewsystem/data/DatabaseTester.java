@@ -63,5 +63,6 @@ public class DatabaseTester {
             Review review = introReviews.get(i);
             System.out.println("Review: " + review.getText() + "- Rating: " + review.getRating());
         }
+        dbManager.disconnect();
     }
 }
